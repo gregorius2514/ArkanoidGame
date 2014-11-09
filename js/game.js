@@ -80,8 +80,6 @@ function draw() {
     // sprawdzenie kolizji cegielek z pilka
     checkBallCollisionWithBrick();
     checkBallHorizontalCollisions();
-
-
 }
 // czyszczenie plotna 
 function clear() {
@@ -134,8 +132,6 @@ function checkBallCollisionWithBrick() {
             var horizontalCollision = theBall.x > b.x && ballRightMargin < brickRightMargin;
             var verticalCollision = (theBall.y == brickBottomMargin) || (ballBottomMargin == b.y);
 
-
-            // SPRAWDZANA JEST TYLKO KOLIZJA OD DOLU
             if (horizontalCollision && verticalCollision) {
                 bricksArray[i].destroyed = true;
 
