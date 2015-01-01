@@ -1,10 +1,15 @@
 body {
     background-color:#eee;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
     color:#000;
     font:14px Arial,sans-serif;
 }
 body > h1 {
      text-align: center;
-     color: #777;
-     text-shadow: 1px 2px #ccc;
+     color: #FFF;
+     text-shadow: 1px 2px 3px #000;
+}
+#container {
+    padding-left: 25%;
 }
