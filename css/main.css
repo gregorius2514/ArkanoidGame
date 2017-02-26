@@ -5,11 +5,13 @@ body {
     color:#000;
     font:14px Arial,sans-serif;
 }
+
 body > h1 {
-     text-align: center;
-     color: #FFF;
-     text-shadow: 1px 2px 3px #000;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 1px 2px 3px #000;
 }
+
 #container {
     padding-left: 25%;
 }

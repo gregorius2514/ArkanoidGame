@@ -168,9 +168,9 @@ function checkBallCollisionWithBrick() {
                 xx++;
 
                 //if (ballDirectionVertically == BALL_MOVE_DOWN) {
-                    //ballDirectionVertically = BALL_MOVE_UP;
+                //ballDirectionVertically = BALL_MOVE_UP;
                 //} else if (ballDirectionVertically == BALL_MOVE_UP) {
-                    //ballDirectionVertically = BALL_MOVE_DOWN;
+                //ballDirectionVertically = BALL_MOVE_DOWN;
                 //}
                 if (xx % 2 == 0) {
                     ballDirectionVertically = BALL_MOVE_UP;
